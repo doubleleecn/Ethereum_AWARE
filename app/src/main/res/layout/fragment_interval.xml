@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/interval_fragment"
+    android:layout_height="match_parent"
+    tools:context="com.boli.ethereum_aware.IntervalFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:padding="8dp"
+        android:textSize="20dp"
+        android:id="@+id/interval_button"
+        android:layout_marginBottom="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <NumberPicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/M_Picker"
+        android:layout_marginTop="99dp"
+        android:layout_marginLeft="90dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="M"
+        android:id="@+id/textView"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="170dp" />
+
+    <NumberPicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/S_Picker"
+        android:layout_marginTop="99dp"
+        android:layout_marginLeft="240dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="S"
+        android:id="@+id/textView2"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="320dp" />
+
+</RelativeLayout>

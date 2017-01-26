@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sensor"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Sensors" />
+        <item
+            android:id="@+id/nav_interval"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Interval" />
+        <item
+            android:id="@+id/nav_user_info"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="User Info" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="wating for implement" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="wating for implement" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="wating for implement" />
+        </menu>
+    </item>
+
+</menu>

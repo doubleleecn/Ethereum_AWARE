@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/main_fragment"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:textColor="#FCFCFC"
+            android:textSize="11pt"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dip"
+            />
+        <ListView
+            android:id="@+id/lv"
+            android:layout_width="fill_parent"
+            android:layout_height="381dip"
+            android:cacheColorHint ="#00000000"
+            ></ListView>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="53dip"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/selectall"
+            android:layout_width="80dip"
+            android:layout_height="60dip"
+            android:layout_marginLeft="20dip"
+            android:text="Select All"
+            android:padding="8dp"
+            android:gravity="center"
+            />
+        <Button
+            android:id="@+id/inverseselect"
+            android:layout_width="80dip"
+            android:layout_height="60dip"
+            android:layout_marginLeft="118dip"
+            android:text="Inverse Select"
+            android:padding="8dp"
+            android:gravity="center"
+            />
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="80dip"
+            android:layout_height="60dip"
+            android:layout_marginLeft="213dip"
+            android:padding="8dp"
+            android:text="Cancle"
+            android:gravity="center"
+            />
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="80dip"
+            android:layout_height="60dip"
+            android:padding="8dp"
+            android:layout_marginLeft="300dip"
+            android:text="SAVE"
+            android:gravity="center"
+            />
+
+    </RelativeLayout>
+</LinearLayout>
